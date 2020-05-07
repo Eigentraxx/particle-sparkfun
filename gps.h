@@ -28,13 +28,18 @@
   Open the serial monitor at 115200 baud to see the output
 */
 
- #ifndef GPS_H
+
+#ifndef GPS_H
  #define GPS_H
-  //All function prototypes from gps.cpp.
-  void getGpsData();
 
-  void setupGpsModule();
-
-  void guidFunc();
+ 
+ //All function prototypes from gps.cpp.
+ void getGpsData(char *dbchange);
+ 
+ void setupGpsModule();
+ 
+ void guidFunc();
+ 
+  
 
  #endif /* GPS_H*/
