@@ -31,6 +31,8 @@ char * company = "device";
 
 const char * PUBLISH_EVENT_NAME = "test1data";
 
+
+// atom deprec. sublime test to github
 // used in setup() startgps polling
 void setupGpsModule() {
   Wire.begin();
